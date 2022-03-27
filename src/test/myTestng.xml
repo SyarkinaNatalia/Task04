@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="suite_name">
+    <test name="MyFirstTest">
+        <parameter name="id" value="1"></parameter>
+        <parameter name="name" value="Kukuruzka"></parameter>
+        <parameter name="age" value="3"></parameter>
+        <classes>
+            <class name="javaTask4.MyFirstTest"/>
+        </classes>
+    </test>
+</suite>
